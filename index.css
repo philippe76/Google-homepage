@@ -3,8 +3,8 @@ body {
   padding: 0;
 }
 
-.navbar {
-  margin-left: 55%;
+nav {
+  margin-left: 70%;
 }
 
 ul {
@@ -18,9 +18,35 @@ li {
 
 a {
   text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 0.8rem;
+  font-family: arial, sans-serif;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 0.85;
 }
 
 main {
-  width: 30%;
+  width: 40rem;
   margin: 25vh auto 0;
+  text-align: center;
+}
+
+input {
+  padding: 0.8rem;
+  margin: 1.2rem;
+  width: 65%;
+  border-radius: 1rem;
+  color: rgba(0, 0, 0, 0.87);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+input:hover {
+  box-shadow: 1px 0px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  border: none;
 }
