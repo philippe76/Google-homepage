@@ -13,4 +13,18 @@ document.querySelectorAll('path').forEach(item =>{
     count++;    
 })
 
+let microPopup = document.createElement('div');
+microPopup.classList.add('popup'); 
+microPopup.innerText ='Search by voice';
+
+
+document.querySelector('svg:nth-child(2)').addEventListener('mouseover', ()=>{
+    microPopup.style.opacity=1;
+
+    document.querySelector('.search-bar').append(microPopup);
+})
+
+document.querySelector('svg:nth-child(2)').addEventListener('mouseout', ()=>{
+    microPopup.style.opacity=0
+})
 
