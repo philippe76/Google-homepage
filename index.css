@@ -14,6 +14,11 @@ nav {
   justify-content: flex-end;
 }
 
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
 ul {
   list-style: none;
   display: flex;
@@ -32,6 +37,23 @@ a {
 a:hover {
   text-decoration: underline;
   opacity: 0.85;
+}
+
+.fa-th {
+  opacity: 0.55;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.fa-th:hover {
+  opacity: 1;
+}
+
+.odin-logo {
+  width: 30px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 /* ---------- MAIN CONTENT ----------- */
@@ -81,12 +103,8 @@ button {
   background-color: #f2f2f2;
   outline-style: none;
   border-radius: 0.4rem;
-  color: #222;
-  cursor: pointer;
-}
-
-button:nth-last-child(1) {
   color: #5f6368;
+  cursor: pointer;
 }
 
 button:hover {
