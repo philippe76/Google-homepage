@@ -1,6 +1,9 @@
 body {
   margin: 0;
   padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ---------- NAVBAR ----------- */
@@ -36,6 +39,8 @@ a:hover {
 main {
   margin: 25vh auto 0;
   text-align: center;
+  width: 60%;
+  flex: 1;
 }
 
 input {
@@ -54,4 +59,27 @@ input:hover {
 
 button {
   border: none;
+}
+
+/* ---------- FOOTER ----------- */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.54);
+  background-color: #f2f2f2;
+  font-size: 1.1rem;
+}
+
+.footbar {
+  display: flex;
+}
+
+.footbar li:hover {
+  text-decoration: underline;
+}
+
+footer,
+.footbar {
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
