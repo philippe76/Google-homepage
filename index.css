@@ -4,6 +4,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: arial, sans-serif;
 }
 
 /* ---------- NAVBAR ----------- */
@@ -26,7 +27,7 @@ a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.87);
   font-size: 0.8rem;
-  font-family: arial, sans-serif;
+  /* font-family: arial, sans-serif; */
 }
 
 a:hover {
@@ -54,7 +55,8 @@ input {
 }
 
 input:hover {
-  box-shadow: 1px 0px 2px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
 }
 
 button {
@@ -63,12 +65,29 @@ button {
   background-color: #f2f2f2;
   outline-style: none;
   border-radius: 0.4rem;
+  color: #222;
+  cursor: pointer;
 }
 
-button:hover {
+button:first-of-type {
+  border: 1px solid #c6c6c6;
+}
+
+button:nth-last-child(1) {
+  color: #5f6368;
+}
+
+/* button:hover {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   border: 1px solid #c6c6c6;
   border-radius: 0.4rem;
+} */
+
+button:nth-last-child(1):hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #c6c6c6;
+  border-radius: 0.4rem;
+  color: #222;
 }
 
 /* ---------- FOOTER ----------- */
