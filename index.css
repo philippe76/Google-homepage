@@ -67,9 +67,12 @@ form {
 }
 
 svg {
+  width: 24px;
+  height: 24px;
+}
+svg:first-of-type {
   width: 20px;
   height: 20px;
-  fill: #9aa0a6;
 }
 
 button {
@@ -140,3 +143,5 @@ footer ul {
 .footbar li:hover {
   text-decoration: underline;
 }
+
+/* POP UP MICROPHONE */
