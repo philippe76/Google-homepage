@@ -59,6 +59,16 @@ input:hover {
 
 button {
   border: none;
+  padding: 0.8rem;
+  background-color: #f2f2f2;
+  outline-style: none;
+  border-radius: 0.4rem;
+}
+
+button:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #c6c6c6;
+  border-radius: 0.4rem;
 }
 
 /* ---------- FOOTER ----------- */
